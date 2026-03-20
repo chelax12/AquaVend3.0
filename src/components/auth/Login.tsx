@@ -123,7 +123,7 @@ export const Login: React.FC<LoginProps> = ({ onShowSignUp }) => {
         onClick={handleGoogleLogin}
         className="w-full p-4 bg-white border border-slate-200 text-slate-600 font-bold rounded-2xl hover:bg-slate-50 transition-colors flex items-center justify-center gap-3"
       >
-        <img src="/google.svg" alt="Google" className="w-5 h-5" />
+        <img src={`${import.meta.env.BASE_URL}google.svg`} alt="Google" className="w-5 h-5" />
         Continue with Google
       </button>
 

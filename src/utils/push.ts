@@ -18,7 +18,7 @@ export async function enableWebPush(supabase: any, userId: string, unitId: strin
     throw new Error("Notification permission was not granted.");
   }
 
-  const registration = await navigator.serviceWorker.register("/service-worker.js");
+  const registration = await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}service-worker.js`);
   const existing = await registration.pushManager.getSubscription();
 
   const subscription =
