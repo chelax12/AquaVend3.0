@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   // This ensures that all assets (JS, CSS, Images) use relative paths.
-  base: '/aquaflow-vendo-monitor/',
+  base: '/AquaVend3.0/',
   build: {
     outDir: 'dist',
     emptyOutDir: true,
