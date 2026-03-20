@@ -1,0 +1,8 @@
+{
+  "name": "Aquavend Vendo Monitor Pro",
+  "description": "A high-performance monitoring dashboard for water vending machines, featuring real-time telemetry, sales analytics, and AI-driven maintenance insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
